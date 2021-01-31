@@ -1,4 +1,5 @@
 const shortid = require('short-id');
+
 function routes(app, db) {
   app.post('/register', (req, res) => {
     let email = req.body.email;
